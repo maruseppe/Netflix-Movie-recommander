@@ -7,8 +7,9 @@ Find viewers or buyers similar to you. In other words, you, the user, enter some
 These latter will be used to find existing raters in the database, viewers or buyers, with ratings similar to yours. 
 Thus, the algorithm will provide with recommendations based on the top movies or purchases which have been recommended by these raters. 
 
-The main algorithm within the file Recommendation Runner enabled a user to run my program interactively on the internet. 
-The user was presented with a list of movies to rate, generated randomly from a database or alternatively filtered by genre, director, duration, etc.
+The main algorithm within the file Recommendation Runner enables a user to run my program interactively on the internet. 
+An interface, named recommender,  is used to allow my code to be integrated with the web site.
+The user is presented with a list of movies to rate, generated randomly from a database or alternatively filtered by genre, director, duration, etc.
 The list is displayed in a html table styled using CSS. 
 The user, then, will submit his ratings, and a list of recommended movies will be displayed. 
 The recommendation algorithm is based on two main methods named getSimilarities and getSimilarRatings. 
